@@ -1,0 +1,68 @@
+@font-face
+	font-family: "svgfont"
+	src: url('fonts/svgfont.eot')
+	src: url('fonts/svgfont.eot?#iefix') format('eot'), url('fonts/svgfont.woff') format('woff'), url('fonts/svgfont.woff2') format('woff2'), url('fonts/svgfont.ttf') format('truetype')
+	font-weight: normal
+	font-style: normal
+
+$icon-arrow: "\EA01"
+$icon-corruption: "\EA02"
+$icon-fb: "\EA03"
+$icon-fuel: "\EA04"
+$icon-gp: "\EA05"
+$icon-in: "\EA06"
+$icon-limit-2: "\EA07"
+$icon-list: "\EA08"
+$icon-play-btn: "\EA09"
+$icon-plus: "\EA0A"
+$icon-pt: "\EA0B"
+$icon-search: "\EA0C"
+$icon-tw: "\EA0D"
+$icon-yt: "\EA0E"
+$icon-zoom: "\EA0F"
+
+
+%icon
+	font-family: "svgfont"
+	font-style: normal
+	font-weight: normal
+	text-rendering: auto
+	speak: none
+	line-height: 1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+.icon, [class^="icon-"], [class*=" icon-"]
+	@extend %icon
+	display: inline-block
+
+.icon-arrow:before
+	content: $icon-arrow
+.icon-corruption:before
+	content: $icon-corruption
+.icon-fb:before
+	content: $icon-fb
+.icon-fuel:before
+	content: $icon-fuel
+.icon-gp:before
+	content: $icon-gp
+.icon-in:before
+	content: $icon-in
+.icon-limit-2:before
+	content: $icon-limit-2
+.icon-list:before
+	content: $icon-list
+.icon-play-btn:before
+	content: $icon-play-btn
+.icon-plus:before
+	content: $icon-plus
+.icon-pt:before
+	content: $icon-pt
+.icon-search:before
+	content: $icon-search
+.icon-tw:before
+	content: $icon-tw
+.icon-yt:before
+	content: $icon-yt
+.icon-zoom:before
+	content: $icon-zoom

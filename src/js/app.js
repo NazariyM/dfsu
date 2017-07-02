@@ -1,0 +1,9 @@
+//=include lib/jquery.js
+//=include lib/slick.min.js
+//=include lib/social-likes.min.js
+//=include lib/calendar.min.js
+//=include lib/jqvmap.js
+//=include lib/ukraine-map.js
+//=include lib/lightbox.js
+//=include media-element-player/mediaelement-and-player.min.js
+//=include common.js

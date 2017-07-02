@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+   <meta charset="utf-8">
+   <title>Інтерв`ю та публічні заяви</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="theme-color" content="#fff">
+   <link rel="stylesheet" media="all" href="css/style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+   //=include partials/header.html
+   <main class="main main--video">
+      <div class="container">
+         <aside class="aside-left">
+            <a class="page-link" href="#">
+               <span class="page-link__text">Відеогалерея</span>
+            </a>
+            <div class="question question--main">
+               <form class="question__form" action="#">
+                  <div class="question__title">ОПИТУВАННЯ</div>
+                  <div class="question__text">Чи підтримуєте Ви запровадження об’єднаної звітності з</div>
+                  <div class="question__answer">
+                     <input id="question-1" class="question__input" name="question" value="1" type="radio">
+                     <label for="question-1" class="question__label">Так</label>
+                     <input id="question-2" class="question__input" name="question" value="2" type="radio">
+                     <label for="question-2" class="question__label">Ні</label>
+                  </div>
+                  <button class="question__submit btn" type="submit" name="question-send">Відіслати</button>
+                  <div class="question__results">
+                     <a class="question__link" href="#">Результати</a>
+                     <a class="question__link" href="#">Архів опитувань</a>
+                  </div>
+               </form>
+            </div>
+         </aside>
+         <section class="video">
+            <div class="video__title sect-title">Інтерв`ю та публічні заяви</div>
+            <div class="video__list">
+               <div class="video__event">
+                  <a class="video__event-pic" href="#">
+                     <img src="img/content/video-1.jpg" alt="img" class="video__event-img">
+                  </a>
+                  <div class="video__event-text">
+                     <a class="video__event-title" href="#">Привітання Голови ДФС Романа Насірова з Новим Роком та Різдвом Христовим</a>
+                     <div class="video__event-date">01.11.2016</div>
+                  </div>
+               </div>
+               <div class="video__event">
+                  <a class="video__event-pic" href="#">
+                     <img src="img/content/video-2.jpg" alt="img" class="video__event-img">
+                  </a>
+                  <div class="video__event-text">
+                     <a class="video__event-title" href="#">Привітання Голови ДФС Романа Насірова з Новим Роком та Різдвом Христовим</a>
+                     <div class="video__event-date">01.11.2016</div>
+                  </div>
+               </div>
+               <div class="video__event">
+                  <a class="video__event-pic" href="#">
+                     <img src="img/content/video-3.jpg" alt="img" class="video__event-img">
+                  </a>
+                  <div class="video__event-text">
+                     <a class="video__event-title" href="#">Привітання Голови ДФС Романа Насірова з Новим Роком та Різдвом Христовим</a>
+                     <div class="video__event-date">01.11.2016</div>
+                  </div>
+               </div>
+               <div class="pagination pagination--news">
+                  <a href="#" class="pagination__btn pagination__btn--first"><i
+                          class="pagination__icon pagination__icon--prev icon-arrow"></i></a>
+                  <a class="pagination__link" href="#">Попередня</a>
+                  <div class="pagination__pages">
+                     <a href="#" class="pagination__page">1</a>
+                     <a href="#" class="pagination__page">2</a>
+                     <a href="#" class="pagination__page is-active">3</a>
+                     <a href="#" class="pagination__page">4</a>
+                     <a href="#" class="pagination__page">5</a>
+                  </div>
+                  <a class="pagination__link" href="#">Наступна</a>
+                  <a href="#" class="pagination__btn pagination__btn--last"><i
+                          class="pagination__icon pagination__icon--next icon-arrow"></i></a>
+               </div>
+            </div>
+         </section>
+         //=include partials/aside-right.html
+      </div>
+   </main>
+</div>
+//=include partials/footer.html
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
